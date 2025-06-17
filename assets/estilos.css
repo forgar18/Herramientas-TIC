@@ -810,4 +810,18 @@ img {
   .button--white {
     bottom: -4.5rem;
   }
+
+  .download-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem; /* espacio entre botones */
+  margin-top: 2rem;
+}
+
+.download-buttons .button {
+  min-width: 220px;
+  justify-content: center;
+}
+
 }
